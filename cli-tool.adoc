@@ -2,15 +2,20 @@
 :numbered:
 :toc:
 
-== ghq
+== 各ツール
+
+=== ghq
 ghqはマシン内のGitリポジトリの保存場所を一括で管理するツールです。
 `git clone` の代わりに `ghq get` を使います。
 
-== hub
+=== hub
 hubはGitHubの操作をコマンドラインから実行するツールです。
 `hub create` や `hub pull-request` のように使います。
 
-== peco
+=== peco
 pecoはターミナルなどで使うインタラクティブなフィルタリングツールです。
 `ls | peco` などのようにパイプで渡します。
 
+== 各ツールの組み合わせ
+
+=== ghq + peco
