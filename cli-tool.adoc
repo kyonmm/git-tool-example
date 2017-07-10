@@ -1,4 +1,4 @@
-= GitのCLIツール
+﻿= GitのCLIツール
 :numbered:
 :toc:
 
@@ -8,14 +8,22 @@
 ghqはマシン内のGitリポジトリの保存場所を一括で管理するツールです。
 `git clone` の代わりに `ghq get` を使います。
 
+GitHub : https://github.com/motemen/ghq
+Install : https://github.com/motemen/ghq/releases
+
 === hub
 hubはGitHubの操作をコマンドラインから実行するツールです。
 `hub create` や `hub pull-request` のように使います。
+
+GitHub : https://github.com/github/hub
+Install : https://github.com/github/hub/releases
 
 === peco
 pecoはターミナルなどで使うインタラクティブなフィルタリングツールです。
 `ls | peco` などのようにパイプで渡します。
 
+GitHub : https://github.com/peco/peco
+Install : https://github.com/peco/peco/releases
 == 各ツールの組み合わせ
 
 === ghq + peco
