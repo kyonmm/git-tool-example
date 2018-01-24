@@ -28,3 +28,24 @@ Install : https://github.com/peco/peco/releases
 == 各ツールの組み合わせ
 
 === ghq + peco
+ghqでcloneしているリポジトリをインクリメンタルサーチして、ディレクトリを移動する
+
+==== Windowsの場合
+.ツールを少なくすませる場合
+. cr.cmdをパスに通す
+. コマンドプロンプトでcr.cmdを実行する
+. ディレクトリを選択すると、git bashが起動する
+
+.一手間いれて、git bashで完結させる場合
+. winpty https://github.com/rprichard/winpty/releases をインストールしてパスを通す
+. git bashをひらく
+. winpty bash と実行する
+. cd $(ghq list -p | peco) と実行する
+. ディレクトリを選択すると、git bashで対象のディレクトリに移動できている
+
+==== Mac/Linuxの場合
+. ~/.bashrc を開く
+. 最下部に `alias cr=cd $(ghq list -p | peco)` を記述する
+. ターミナルで source ~/.bashrc を実行する
+. cr と実行する
+. ディレクトリを選択すると、対象のディレクトリに移動できている
