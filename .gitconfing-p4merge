@@ -6,10 +6,10 @@
 
 [difftool "p4"]
 # WindowsもしくはMacの必要な行だけ残す
-    cmd = \”C:/Program Files/Perforce/p4merge.exe\” \“$LOCAL\” \“$REMOTE\“ #Windows
-    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \“$LOCAL\” \“$REMOTE\” #Mac
+    cmd = \"C:/Program Files/Perforce/p4merge.exe\" \"$LOCAL\" \"$REMOTE\" #Windows
+    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\" #Mac
 [mergetool "p4"]
 # WindowsもしくはMacの必要な行だけ残す
-    cmd = \"C:/Program Files/Perforce/p4merge.exe\" \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\“#Windows
-    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\“#Mac
+    cmd = \"C:/Program Files/Perforce/p4merge.exe\" \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\" #Windows
+    cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\" #Mac
 
