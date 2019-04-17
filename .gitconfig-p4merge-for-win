@@ -7,9 +7,9 @@
 	longpaths = true
 	autocrlf = false
 [http]
-    proxy = http://account%40kyon-mm.com:password@127.0.0.1:3128 # 必要ならプロキシの設定
+	proxy = http://account%40kyon-mm.com:password@127.0.0.1:3128 # 必要ならプロキシの設定
 [https]
-    proxy = http://account%40kyon-mm.com:password@127.0.0.1:3128 # 必要ならプロキシの設定
+	proxy = http://account%40kyon-mm.com:password@127.0.0.1:3128 # 必要ならプロキシの設定
 [merge]
 	tool = p4
 [mergetool "p4"]
