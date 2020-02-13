@@ -1,0 +1,11 @@
+[merge]
+	tool = p4
+[mergetool "p4"]
+	path = \"C:/Program Files/Perforce/p4merge.exe\"
+	cmd = \"C:/Program Files/Perforce/p4merge.exe\" -C 'utf8' \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+	trustExitCode = true
+[diff]
+	guitool = p4
+[difftool "p4"]
+	path = C:/Program Files/Perforce/p4merge.exe
+	cmd = \"C:/Program Files/Perforce/p4merge.exe\" -C 'utf8' \"$LOCAL\" \"$REMOTE\"
